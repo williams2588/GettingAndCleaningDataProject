@@ -8,7 +8,23 @@ Details on the source data can be found in the README.txt file included in the d
 The included R script, run_analysis.R reforms the following steps:
 
 1) Read in the feature names from features.txt.
-2) 
+
+2) Clean the feature names by removing dashes  and parentheses
+
+3) Extract only features representing mean and standard deviation measures
+
+4) Read in activity labels from activity_labels.txt
+
+	These include:
+	
+		*WALKING
+		*WALKING_UPSTAIRS
+		*WALKING_DOWNSTAIRS
+		*SITTING
+		*STANDING
+		*LAYING
+		
+5) 
 
 1. Activity
 2. Subject
