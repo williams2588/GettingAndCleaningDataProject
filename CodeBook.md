@@ -7,7 +7,7 @@ Details on the source data can be found in the README.txt file included in the d
 
 The included R script, run_analysis.R reforms the following steps:
 
-1) Read in the feature names from features.txt.
+1) Read in the feature names from features.txt.  (561 variables)
 
 2) Clean the feature names by removing dashes  and parentheses
 
@@ -17,14 +17,22 @@ The included R script, run_analysis.R reforms the following steps:
 
 	These include:
 	
-		*WALKING
-		*WALKING_UPSTAIRS
-		*WALKING_DOWNSTAIRS
-		*SITTING
-		*STANDING
-		*LAYING
+		* WALKING
+		* WALKING_UPSTAIRS
+		* WALKING_DOWNSTAIRS
+		* SITTING
+		* STANDING
+		* LAYING
 		
-5) 
+5) Read in test data from test/X_test.txt
+
+6) Extract only those columns representing mean and standard deviation measures
+
+7) Read in the list of test subjects corresponding to each reading
+
+8) Read in lys of activity labels and convert activity codes to appropriate label
+
+9) 
 
 1. Activity
 2. Subject
