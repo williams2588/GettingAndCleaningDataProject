@@ -61,18 +61,18 @@ The following provides an explanation of each column of the final tidy dataset:
 	- Subject - the number of the human subject
 
 - Data columns.  Note: All values represent the means of the source data values grouped by activity and subject
-	-- mean of 3-axial body acceleration, time domain
-		-- tBodyAccmeanX
-		-- tBodyAccmeanY
-		-- tBodyAccmeanZ
+	- mean of 3-axial body acceleration, time domain
+		- tBodyAccmeanX
+		- tBodyAccmeanY
+		- tBodyAccmeanZ
 	- standard deviation of 3-axial body acceleration, time domain
-		-- tBodyAccstdX
-		-- tBodyAccstdY
-		-- tBodyAccstdZ
+		- tBodyAccstdX
+		- tBodyAccstdY
+		- tBodyAccstdZ
 	- mean of 3-axial acceleration due to gravity, time domain
-		-- tGravityAccmeanX
-		-- tGravityAccmeanY
-		-- tGravityAccmeanZ
+		- tGravityAccmeanX
+		- tGravityAccmeanY
+		- tGravityAccmeanZ
 12. tGravityAccstdX
 13. tGravityAccstdY
 14. tGravityAccstdZ
