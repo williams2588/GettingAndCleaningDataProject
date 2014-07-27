@@ -15,14 +15,14 @@ The included R script, run_analysis.R reforms the following steps:
 
 4) Read in activity labels from activity_labels.txt
 
-	These include:
+These include:
 	
-		* WALKING
-		* WALKING_UPSTAIRS
-		* WALKING_DOWNSTAIRS
-		* SITTING
-		* STANDING
-		* LAYING
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
 		
 5) Read in test data from test/X_test.txt
 
