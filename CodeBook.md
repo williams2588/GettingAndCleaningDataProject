@@ -30,12 +30,38 @@ The included R script, run_analysis.R reforms the following steps:
 
 7) Read in the list of test subjects corresponding to each reading
 
-8) Read in lys of activity labels and convert activity codes to appropriate label
+8) Read in the list of test activity labels and convert activity codes to appropriate label
 
-9) 
+9) Bind the test subject and activity labels to the test data
 
-1. Activity
-2. Subject
+10) Read in the training data from train/X_train.txt
+
+11) Extract only those columns representing mean and standard deviation measures
+
+12) Read in the list of training subjects corresponding to each reading
+
+13) Read in the list of training activity labels and convert activity codes to appropriate label
+
+14) Bind the training subject and activity labels to the test data 
+
+15) Merge the test and training data
+
+16) Produce a new summary table by calculating the mean of each data column by activity and subject
+
+17) Drop extraneous columns
+
+18) Rename grouping columns to "Activity" and "Subject"
+
+19) Export final tidy data table to CSV file in the working directory
+
+The following provides an explanation of each column of the final tidy dataset:
+
+
+- Activity - the activity being measured
+- Subject - the number of the human subject
+
+
+
 3. tBodyAccmeanX
 4. tBodyAccmeanY
 5. tBodyAccmeanZ
