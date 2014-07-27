@@ -71,6 +71,13 @@ The following provides an explanation of each column of the final tidy dataset:
 		- the third component of the name indicates the type of measure
 			- Acc = linear acceleration
 			- Gyro = angular velocity
+			- AccJerk = rate of change of acceleration
+			- GyroJerk = rate of change of angular velocity
+		- the fourth component of the name indicate the type of statistic
+			- mean = mean
+			- std = standard deviation
+			- mag = magnitude
+		- the fifth component, where applicable, indicate the 3-axial signals in the X, Y or Z direction
 	- tBodyAccmeanX
 	- tBodyAccmeanY
 	- tBodyAccmeanZ
