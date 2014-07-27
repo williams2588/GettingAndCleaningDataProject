@@ -56,9 +56,9 @@ The included R script, run_analysis.R reforms the following steps:
 
 The following provides an explanation of each column of the final tidy dataset:
 
-
-- Activity - the activity being measured
-- Subject - the number of the human subject
+- Grouping columns:
+-- Activity - the activity being measured
+-- Subject - the number of the human subject
 
 
 
