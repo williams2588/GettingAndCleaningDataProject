@@ -13,12 +13,10 @@ The tidy dataset is composed of the mean values summarized by volunteer
 and activity of all individual mean and standard deviation measures of
 the source data.  The tidy dataset includes both training and test data
 from the experiments.  Details about the source data can be found at
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+
-Smartphones.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 The included script run_analysis.R will produce the tidy dataset using
 R, the statistical computing software. The script assumes that the
 source data
-(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
-20HAR%20Dataset.zip) has been downloaded and unzipped into the the
+(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) has been downloaded and unzipped into the the
 working directory of the R session.
