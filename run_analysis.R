@@ -1,5 +1,3 @@
-setwd("~/Projects/datasciencecoursera/GettingAndCleaningData/UCI HAR Dataset")
-
 #read features to use as column names
 namesdf <- read.table("features.txt")
 namesv <- namesdf$V2
@@ -65,6 +63,7 @@ XAll2$Activity <- NULL
 names(XAll2)[1] <- "Activity"
 names(XAll2)[2] <- "Subject"
 
+#export summary table to CSV
 write.csv(Xall2,"ActivityRecognitionSummaryStats.csv")
 
 
